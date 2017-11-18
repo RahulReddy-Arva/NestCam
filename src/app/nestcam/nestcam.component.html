@@ -16,9 +16,10 @@
 <p-column field="cameraName" header="Cam_Name" [editable]="false"></p-column>
 <p-column field="eventDate" header="Event_Date" [sortable]="true">
     <ng-template pTemplate="body" let-h="rowData">
-        {{h.eventDate | date:'short'}}
+        {{ h.eventDate | date:'short' }}
     </ng-template>
 </p-column>
+<p-column field="image" header="Image" [editable]="false"></p-column>
 </p-dataTable>
 
 <p-contextMenu #tableContextMenu></p-contextMenu>

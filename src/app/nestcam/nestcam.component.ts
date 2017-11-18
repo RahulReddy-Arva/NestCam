@@ -15,7 +15,7 @@ export class NestcamComponent implements OnInit {
   
   isStreaming: boolean;
   cameraName: string;
-  selectedRows: Array<any>;  
+  selectedRows: Array<any>;
  
   Events = [];
   
